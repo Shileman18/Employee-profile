@@ -75,23 +75,24 @@ function Employee() {
           <h4 className="">Profile</h4>
           <div className="mb-4">Dashboard / Profile</div>
 
-          <div className="card">
-            <div className="card-body d-flex justify-content-between ">
-              <div className="row">
+          <div className="card d-flex justify-content-around">
+            <div className="card-body">
+              <div className="row ">
                 <div className="edit ">
                   <MdOutlineEdit className="float-end" />
                 </div>
-                <div className="col ">
-                  <div className="">
+                
+                <div className="col">
+                  <div className="ms-4">
                     <img
                       src="./images/download.png"
                       alt="ha"
                       className="rounded-circle"
-                      width={120}
+                      width={130}
                     />
                   </div>
                 </div>
-                <div className="col">
+                <div className="col me-5">
                   <div className="">
                     <h4>John Deo</h4>
                     <p style={{ color: "#a19c9c" }}>UI/UX Design Team</p>
